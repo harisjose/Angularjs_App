@@ -1,0 +1,65 @@
+
+*{
+    transition: .5s;
+}
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 4;
+    background-color: transparent;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    cursor:pointer;
+}
+main, main .wrapper{
+    height: 100%;
+}
+footer {
+    background-color: #333;
+}
+/********************/
+@keyframes sizechange {
+    0%{font-size: 20px;}
+    25%{
+        font-size: 23px;
+    }
+    50%{
+        font-size: 25px;
+    }
+    75%{
+        font-size: 23px;
+    }
+    100%{
+        font-size: 20px;
+    }
+}
+@keyframes backgroundfill {
+    from{ background-size: 50% 50%;
+        color: #fff;}
+    to{ background-size: 100% 100%;
+        color: #fff;}
+}
+/**********TEXT ANIMATION***********/
+.ml3 {
+    font-size: 2em;
+    color: #ce1212;
+  }
+  .ml4 {
+    font-size: 2em;
+    color: #eeebdd;
+  }
+/************************************/
+

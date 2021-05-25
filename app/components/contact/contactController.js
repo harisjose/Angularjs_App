@@ -1,0 +1,1 @@
+angular.module('contactModule',[]).controller('contactController',function($scope){});

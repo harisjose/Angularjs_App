@@ -1,0 +1,11 @@
+{
+  "name": "man-with-a-plan",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A Service Oriented Company",
+  "repository": "",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "angular-route": "^1.7.5"
+  }
+}

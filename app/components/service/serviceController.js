@@ -1,0 +1,1 @@
+angular.module('serviceModule',[]).controller('serviceController',function($scope){$scope.haris="jose haris";})
