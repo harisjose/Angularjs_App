@@ -81,6 +81,7 @@ section#home{
     font-size: 25px;
     cursor: pointer;
     text-align: center;
+    text-decoration: none;
 
 }
 .explore .explore-explore i{
