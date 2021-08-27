@@ -197,7 +197,7 @@ background-position: center center;
     font-weight: 400;
 
 }
-.b2.fb, .b2.insta, .b1.email {
+.b2.fb, .b2.insta, .b1.email,.b1.phone {
     text-decoration: none;
     cursor: pointer;
 }
