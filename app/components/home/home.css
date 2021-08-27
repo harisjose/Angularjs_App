@@ -200,6 +200,7 @@ background-position: center center;
 .b2.fb, .b2.insta, .b1.email,.b1.phone {
     text-decoration: none;
     cursor: pointer;
+    min-width:300px;
 }
 /********media***/
 
